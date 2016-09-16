@@ -8,7 +8,7 @@ Customize config/urls.txt to use other playlist URLs.
 
 All files are downloaded as audio only and converted to AAC 32kb bitrate, 1.5x playback speed, +5dB volume gain. Adjust the ffmpeg parameters in config/process.sh to change this.
 
-The script relies on ffmpeg for conversion and id3v2 for tagging the audio files. Both tools can be installed on OSX with brew.
+The script relies on youtube-dl for downloading, ffmpeg for conversion and id3v2 for tagging the audio files. These tools can be installed on OSX with brew.
 
 The script does the following:
 * Checks Youtube playlists specified in config/urls.txt
